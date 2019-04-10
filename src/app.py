@@ -2,6 +2,7 @@ from aiohttp import web
 from core.router import routes
 from core.conf import *
 
+
 async def factory():
     app = web.Application()
     routes(app)
